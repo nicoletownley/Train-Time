@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Train Time</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron jumbotron-fluid; ">
+      <div class="container">
+        <h1 class="display-4" style="text-align: center; background: url('/assets/images/Pink Lady.jpg') no-repeat center center;">Train Time</h1>
+      </div>
+    </div>
+    <div class="container">
+      <h2 style="border: solid black 1px; background-color: pink"> Current Train Schedule</h2>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Train Name</th>
+              <th>Destination</th>
+              <th>Frequency (min)</th>
+              <th>Next Arrival</th>
+              <th>Minutes Away</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Apple Train</td>
+              <td>Minneapolis</td>
+              <td>35 Minutes</td>
+              <td>6:35pm</td>
+              <td>7</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="container">
+      <h2 style="border: solid black 1px; background-color: pink;"> Add A Train</h2>
+      <form>
+        <div class="form-group row">
+          <label for="tname" class="col-sm-2 col-form-label">Train Name</label>
+          <div class="col-sm-12">
+            <input type="Train Name" class="form-control" id="tname1">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputdestination" class="col-sm-2 col-form-label">Destination</label>
+          <div class="col-sm-12">
+            <input type="destination" class="form-control" id="destionation1">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="fttime" class="col-sm-2 col-form-label">First Train Time</label>
+          <div class="col-sm-12">
+            <input type="first train time" class="form-control" id="fttime1">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="freq" class="col-sm-2 col-form-label">Frequency</label>
+          <div class="col-sm-12">
+            <input type="frequency" class="form-control" id="freq1">
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-12">
+            <button type="submit" class="btn btn-dark">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+</body>
+
+</html>
+
+
+<!-- // var queryURL = "whatever was here 
+// /?
+// "q=" + animal 
+// &
+// api_key=
+// &
+// limit=10"  -->
