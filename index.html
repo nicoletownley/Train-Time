@@ -10,7 +10,6 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-database.js"></script>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
@@ -38,14 +37,8 @@
               <th>Minutes Away</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody id = "trainDisplay">
             <tr>
-              <td>Apple Train</td>
-              <td>Minneapolis</td>
-              <td>35 Minutes</td>
-              <td>6:35pm</td>
-              <td>7</td>
-            </tr>
           </tbody>
         </table>
       </div>
@@ -85,17 +78,10 @@
       </form>
     </div>
 
-    <!-- Add Firebase products that you want to use -->
+  
     <script src="assets/javascript/logic.js"></script>
 </body>
 
 </html>
 
 
-<!-- // var queryURL = "whatever was here 
-// /?
-// "q=" + animal 
-// &
-// api_key=
-// &
-// limit=10"  -->
