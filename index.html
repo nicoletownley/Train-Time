@@ -5,18 +5,24 @@
 
   <meta charset="UTF-8">
   <title>Train Time</title>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-database.js"></script>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
+
+
   <div class="container">
     <div class="jumbotron jumbotron-fluid; ">
       <div class="container">
-        <h1 class="display-4" style="text-align: center; background: url('/assets/images/Pink Lady.jpg') no-repeat center center;">Train Time</h1>
+        <h1 class="display-4"
+          style="text-align: center; background: url('/assets/images/Pink Lady.jpg') no-repeat center center;">Train
+          Time</h1>
       </div>
     </div>
     <div class="container">
@@ -50,7 +56,7 @@
         <div class="form-group row">
           <label for="tname" class="col-sm-2 col-form-label">Train Name</label>
           <div class="col-sm-12">
-            <input type="Train Name" class="form-control" id="tname1">
+            <input type="train name" class="form-control" id="tname1">
           </div>
         </div>
         <div class="form-group row">
@@ -73,11 +79,14 @@
         </div>
         <div class="form-group row">
           <div class="col-sm-12">
-            <button type="submit" class="btn btn-dark">Submit</button>
+            <button id="newTrain" type="submit" class="btn btn-dark">Submit</button>
           </div>
         </div>
       </form>
     </div>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="assets/javascript/logic.js"></script>
 </body>
 
 </html>
